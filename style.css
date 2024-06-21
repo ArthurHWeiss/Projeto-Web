@@ -1,0 +1,351 @@
+header{
+    width: 98vw;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(226, 227, 228);
+    margin: 10px auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav ul{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+ul { 
+    list-style-type: none;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+nav ul {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 12px;
+    color: black;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 10px;
+    font-weight: bold;
+}
+
+nav ul li a:hover { /*ajuste opções cabeçalho*/
+    background-color: rgb(236, 236, 236);
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.especificacao { /*texto utilizado para especificar as imagens*/
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 10px;
+    color: rgb(0, 102, 255);
+    width: 200px;
+    height: 20px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.titulo { /*ajuste de titulo*/
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 100px;
+    color: rgb(0, 102, 255);
+    font-style: inherit;
+    font-style: initial;
+
+}
+
+.caixa { /*ajuste da seção*/
+    width: 90vw;
+    height: auto;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.527);
+    margin: 10px auto;
+    border: 1px solid rgb(226, 227, 228);
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.artigo { /*ajuste do artigo*/
+    width: 90vw;
+    height: auto;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.623);
+    margin: 10px auto;
+    border: 1px solid rgb(226, 227, 228);
+    border-radius: 10px;
+}
+
+.texto { /*ajuste de texto*/
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 10px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.subtitulo{ /*ajuste de subtitulo*/
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 80px;
+    color: rgb(0, 102, 255);
+    font-style: inherit;
+    font-style: initial;
+
+}
+
+.links{ /*ajuste de do texto de links */
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 1px;
+    color: blue;
+    list-style: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.estatisticas{ /*ajuste de imagem*/
+    width: 350px;
+    height: 300px;
+    border: 2px solid black;
+    justify-content: space-around;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.goleador{ /*ajuste de imagem*/
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    justify-content: space-around;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulos{ /*ajuste de imagem*/
+    width: 500px;
+    height: 400px;
+    justify-content: space-around;
+    border: 2px solid black;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.pp1{ /*especificação da tabela*/
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 10px;
+    font-weight: bold;
+}
+
+
+.tabela{ /*ajuste da tabela*/
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+img { /*ajuste de imagem*/
+    height: 150px;
+}
+
+
+#gremiobr{ /*ajuste de imagem*/
+    width: 500px;
+    height: 340px;
+    border: 2px solid black;
+    justify-content: space-around;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#geral{ /*ajuste de imagem*/
+    border: 2px solid black;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#geral2{ /*ajuste de imagem*/
+    width: 600px;
+    height: 440px;
+    border: 2px solid black;
+    justify-content: space-around;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo{ /*ajuste da logo*/
+    width: 270px;
+    height: 250px;
+    border: 2px solid black;
+    justify-content: space-around;
+    align-items: center;
+    display: block;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#camisabranca{ /*ajuste de imagem*/
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    justify-content: space-around;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#img1 { /*ajuste de imagem*/
+    width: 200px;
+    height: 250px;
+    justify-content: space-around;
+    border: 2px solid black;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#img2 { /*ajuste de imagem*/
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 10%;
+    justify-content: space-around;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img3 { /*ajuste de imagem*/
+    width: 500px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid black;
+    justify-content: space-around;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img1983 { /*ajuste de imagem*/
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+    justify-content: space-around;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img1995 { /*ajuste de imagem*/
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+    justify-content: space-around;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img2017 { /*ajuste de imagem*/
+    width: 500px;
+    height: 350px;
+    border: 2px solid black;
+    justify-content: space-around;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#copa1{ /*ajuste de imagem*/
+    border: 2px solid black;
+    border-radius: 50%;   
+    width: 200px;
+    height: 200px;
+}
+#copa2{ /*ajuste de imagem*/
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+#copa3{ /*ajuste de imagem*/
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+#copa4{ /*ajuste de imagem*/
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+#copa5{ /*ajuste de imagem*/
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+th, td { /* ajuste da tabela */
+    padding: 10px;
+    text-align: left;
+    border: 2px solid rgb(3, 196, 255);
+}
+
+.rodape { /*ajuste do rodapé*/
+    width: 90vw;
+    height: auto;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    margin: 10px auto;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+#rodatext{ /*ajuste do texto do rodapé*/
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 2px;  
+}
